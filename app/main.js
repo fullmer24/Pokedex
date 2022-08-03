@@ -1,7 +1,13 @@
-import { ValuesController } from "./Controllers/ValuesController.js";
+import { ActiveController } from "./Controllers/ActiveController.js";
+import { CaughtController } from "./Controllers/CaughtsController.js";
+import { WildsController } from "./Controllers/WildsController.js";
+
 
 class App {
-  valuesController = new ValuesController();
+  wildsController = new WildsController();
+  activeController = new ActiveController();
+  caughtController = new CaughtController();
+
 }
 
 window["app"] = new App();
