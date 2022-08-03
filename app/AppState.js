@@ -8,7 +8,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Caught.js').Caught[]} */
   caught = []
 
-  /** @type {import('./Models/Active.js').Active[]} */
+  /** @type {import('./Models/Active.js').Active} */
   // @ts-ignore
   active = {}
 
