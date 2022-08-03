@@ -1,7 +1,6 @@
 export class Wild {
-    constructor({ name, weight, url }) {
+    constructor({ name, url }) {
         this.name = name
-        this.weight = weight
         this.url = url
     }
 
