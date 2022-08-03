@@ -1,1 +1,6 @@
 /* BASIC STYLES HERE */
+.right,
+.left {
+    height: 100vh;
+    overflow-y: auto;
+}
