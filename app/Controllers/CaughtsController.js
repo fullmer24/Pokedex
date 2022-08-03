@@ -1,6 +1,6 @@
 
 
 
-export class CaughtController {
+export class CaughtsController {
 
 }
