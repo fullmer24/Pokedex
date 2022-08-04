@@ -7,7 +7,7 @@ export class Active {
         this.stat = data.stats.stat
     }
 
-    get ActiveSpellTemplate() {
+    get ActiveTemplate() {
         return `
         <div class="card">
             <div class="card-body">
@@ -22,7 +22,7 @@ export class Active {
             </div>
             <div class="card-footer">
                 <div class="text-end">
-                    <button onclick="app.caughtController.addCaught()" class="btn btn-dark">Add to Caught</button>
+                    <button onclick="app.caughtController.addCaught()" class="btn btn-dark">Catch</button>
                 </div>
             </div>
         </div>

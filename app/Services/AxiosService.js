@@ -1,5 +1,5 @@
 // @ts-ignore
-export const sandboxApi = new axios.create({
+export const caughtsApi = new axios.create({
     baseURL: 'https://bcw-sandbox.herokuapp.com/api/Kade',
     timeout: 8000
 })
